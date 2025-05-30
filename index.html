@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" style="--i:1" class="active">Home</a>
+        <a href="#about" style="--i:2">About</a>
+        <a href="#skills" style="--i:3">Skills</a>
+        <a href="#projects" style="--i:4">Projects</a>
+        <a href="#certificates" style="--i:5">Certificates</a>
+        <a href="#contact" style="--i:6">Contact</a> 
+      </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Lavanya Ahlawat</h1>
+            <h3>And I am a <span class="text"></span></h3>
+            <p>I am a 2nd year Computer Science Engineering student,
+                <br>and I am eager to discover, learn and grow continuously in the field of technology.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/lavanya-ahlawat-ba4466333" target="_blank" 
+                style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/lvnyhlwt" target="_blank" style="--i:8">
+                  <i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/lavanya-2-5" target="_blank" style="--i:10"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <div class="home-img">
+            <div class="img-border">
+                <img src="/myphoto.jpg.jpeg" alt="My Photo">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+         <div class="about-img">
+            <img src="/myphoto.jpg.jpeg" alt="prof-pic-bottom" class="profile-pic">  
+       
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <p> I am a second-year B.Tech student in Computer Science, driven by a deep interest in 
+     technology and continuous learning. My academic journey so far has equipped me with a solid understanding of frontend 
+        technologies including HTML, CSS, and JavaScript, and I am currently enhancing my skill set by 
+        learning React.js to build dynamic user interfaces.<br>In addition to web development, I have explored
+     various programming languages such as Python, C, and Java, and I continue to strengthen my 
+     problem-solving abilities through hands-on practice. I have also completed a certified NPTEL course
+      in Machine Learning and Assembly Language, which introduced me to core ML concepts and practical 
+      applications and has given me a foundational understanding of low-level programming and computer
+       architecture respectively.<br>As I continue to grow, I aim to work on impactful projects and 
+       stay aligned with emerging technologies in software and AI.</p>
+       <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+
+    <section class="skills-section" id="skills">
+    <h1>My<span>Skills</span></h1>
+    <div class="skills-container" id="technical-skills-title">Technical Skills</div>
+    <div class="cards-container" id="technical-skills"></div>
+
+    <div class="skills-container" id="professional-skills-title">Professional Skills</div>
+    <div class="cards-container" id="professional-skills"></div>
+  </section>
+
+
+  <section class="project-section" id="projects">
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My<span>Projects</span></h1>
+            <div class="Project-list">
+                <div>
+                    <i class='bx bx-money-withdraw' style='color:#00ffff'  ></i>
+                    <h2>ATM Machine</h2>
+                    <p>Developed an ATM Machine simulation using Java, enabling users to securely check 
+                        account balance, withdraw cash, and deposit funds.</p> 
+                        <a href="https://github.com/lavanya-2-5/CODSOFT/blob/main/ATMmachine.java" 
+                        target="_blank" class="read">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bxs-calculator' style='color:#00ffff' ></i>
+                    <h2>CALCULATOR</h2>
+                    <p>Designed an intuitive GUI with responsive buttons and real-time calculation 
+                        feedback, demonstrating effective use of Java’s GUI components.</p> 
+                        <a href="https://github.com/lavanya-2-5/JavaCalc/blob/main/src/Calculator.java" 
+                         target="_blank" class="read">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bxl-python' style='color:#00ffff' ></i>
+                    <h2>Rock-Vs-Mine Prediction</h2>
+                    <p>A machine learning model that predicts whether a sonar signal indicates a rock or 
+                        mine underwater. The model can be used to support naval operations.</p> 
+                        <a href="https://github.com/lavanya-2-5/Rock-Vs-Mine-Prediction" target="_blank" 
+                        class="read">Learn More</a>
+                </div></div>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="certificates-section" id="certificates">
+    <h2>My<span>Certificates</span></h2>
+    <div id="myCertificates">
+<div class="certificate-box" data-cert="C prog..jpeg"><b>NPTEL</b><br>C Programmming and Assembly Language</div>
+  <div class="certificate-box" data-cert="Machine Learning.jpeg"><i class='bx bxl-python' style='color:#20eee3'>
+  </i><b>NPTEL</b><br>Machine Learning</div>
+  <div class="certificate-box" data-cert="Codsoft.jpeg"><i class='bx bxl-java' style='color:#20eee3'>
+  </i><b>CODSOFT</b><br>Java</div>
+  <div class="certificate-box" data-cert="CodtechIt.jpeg"><i class='bx bxl-python' style='color:#20eee3'
+    ></i><b>CodtechIt Solutions</b><br>Python</div>
+  <div class="certificate-box" data-cert="udemy.jpeg"><i class='bx bxl-java' style='color:#20eee3'></i>
+    <b>UDEMY</b><br>Java Programming</div>
+
+  <div id="certModal">
+    <span id="closeBtn">×</span>
+    <img id="certImage" src="" alt="Certificate">
+  </div>
+</div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact<span>Me</span></h2>
+      <h4>Let's work together</h4>
+      <p>I am always open to exciting opportunities, creative collaborations, or just a quick chat about
+         tech and design.Looking forward to creating something awesome together!</p>
+         <div class="contact-list">
+          <li><i class='bx bx-send' style='color:#00eeff'></i>lavanyaahlawat80@gmail.com</li>
+          <li><i class='bx bx-phone'></i>8279789980</li>
+         </div>
+         <div class="contact-icons">
+          <a href=""><i class='bx bxl-instagram'></i></a>
+          <a href=""><i class='bx bxl-linkedin-square' style='color:#00eeff' ></i></a>
+         </div>
+    </div>
+    <div class="contact-form">
+      <form action="">
+        <input type="" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="" placeholder="Enter Your Subject" >
+        <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+      <input type="submit" value="Submit" class="send">
+      </form>
+    </div>
+  </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
